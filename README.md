@@ -13,4 +13,4 @@ lumen api with dusterio/lumen-passport
 9) First create access token 
 10) call http://localhost/lumen-passport/public/oauth/token with post method. parameters = "client_id" => from db, "client_secret" => from db, "username" => your email, "password" => your password, "grant_type" => "password", "scope" => "*"
 11) you will get access token in response 
-12) call http://localhost/lument-passport/public/users provide token in header (Authorization: Bearer token here)
+12) call http://localhost/lument-passport/public/users provide token in header (Authorization: Bearer "token here")
